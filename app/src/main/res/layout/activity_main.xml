@@ -23,14 +23,13 @@
         android:text="Enter the Height (in CMS)"
         android:textSize="25dp"
         android:fontFamily="sans-serif-condensed-medium"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="30dp"
         />
 
     <EditText
         android:id="@+id/height"
         android:layout_width="match_parent"
         android:layout_height="wrap_content"
-        android:layout_marginTop="10dp"
         android:textSize="25dp"
         android:textColor="#000000"
         android:fontFamily="sans-serif-condensed-medium"
@@ -41,7 +40,7 @@
         android:layout_height="wrap_content"
         android:text="Enter the Weight (in KG)"
         android:textSize="25dp"
-        android:layout_marginTop="40dp"
+        android:layout_marginTop="35dp"
         android:fontFamily="sans-serif-condensed-medium"
         />
 
