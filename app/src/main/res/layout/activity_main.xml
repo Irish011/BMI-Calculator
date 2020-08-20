@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="20dp"
+    android:background="#E8DCCA"
+    tools:context=".MainActivity">
+
+    <ImageView
+        android:layout_width="280dp"
+        android:layout_height="360dp"
+        android:scaleType="centerCrop"
+        android:layout_gravity="center"
+        android:layout_marginTop="2dp"
+        android:src="@drawable/bmi_calculator"/>
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the Height (in CMS)"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:layout_marginTop="40dp"
+        />
+
+    <EditText
+        android:id="@+id/height"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textSize="25dp"
+        android:textColor="#000000"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="number" />
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Enter the Weight (in KG)"
+        android:textSize="25dp"
+        android:layout_marginTop="40dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        />
+
+    <EditText
+        android:id="@+id/weight"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="10dp"
+        android:textColor="#000000"
+        android:textSize="25dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:inputType="number" />
+
+    <Button
+        android:id="@+id/calc"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="120dp"
+        android:layout_marginTop="20dp"
+        android:background="#FD7171"
+        android:gravity="center"
+        android:padding="12dp"
+        android:text="CALCULATE"
+        android:textSize="20dp" />
+
+    <TextView
+        android:id="@+id/ans"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:fontFamily="sans-serif-condensed-medium"
+        android:gravity="center_horizontal"
+        android:textColor="#000000"
+        android:textSize="30dp" />
+
+</LinearLayout>
